@@ -1,0 +1,66 @@
+.contenedor-principal {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9eef2; /* Color de fondo rosa claro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 10px;
+  }
+  
+  /* Estilo del filtro */
+  .filtro input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ff69b4; /* Color de borde rosa oscuro */
+    border-radius: 5px;
+    background-color: #fff; /* Color de fondo blanco */
+  }
+  
+  /* Estilo del indicador de carga */
+  .loading-indicator {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Estilo de la lista de personajes */
+  .personaje-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9; /* Color de fondo gris claro */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Estilo del enlace Agregar personaje */
+  .agregar-personaje {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #ff69b4; /* Color de fondo rosa oscuro */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #d3468d; /* Cambia el color al pasar el mouse */
+  }
+  
+  /* Estilo activo para el enlace de navegación */
+  .active {
+    font-weight: bold;
+    color: #ff69b4; /* Color rosa oscuro */
+  }

@@ -1,0 +1,16 @@
+<div class="contenedor-principal">
+  <div class="filtro">
+    <input type="text" [(ngModel)]="filtroNombre" placeholder="Filtrar por nombre" (input)="filtrarPorNombre()" />
+  </div>
+
+  <div *ngIf="isLoading" class="loading-indicator">Cargando...</div>
+
+  <div *ngFor="let personaje of personajesFiltrados" class="personaje-item">
+    {{ personaje.id }} {{ personaje.nombre }} {{ personaje.apellido }} - Edad: {{ personaje.edad }} - Nacimiento: {{ personaje.fechaNacimiento | date }}
+  </div>
+
+  <div class="agregar-personaje">
+    <a class="button" routerLink="/Formulario" routerLinkActive="active" ariaCurrentWhenActive="page">Agregar personaje</a>
+  </div>
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,11 @@
+<div class="formulario-nuevo-personaje">
+  <input type="text" appMayusculas [(ngModel)]="nuevoPersonaje.nombre" placeholder="Nombre del nuevo personaje" />
+  <input type="text" [(ngModel)]="nuevoPersonaje.apellido" placeholder="Apellido del nuevo personaje" />
+  <input type="number" [(ngModel)]="nuevoPersonaje.edad" placeholder="Edad del nuevo personaje" />
+  <input
+    type="date"
+    [(ngModel)]="nuevoPersonaje.fechaNacimiento"
+    placeholder="Fecha de Nacimiento del nuevo personaje"
+  />
+  <button (click)="agregarPersonaje()">Agregar Personaje</button>
+</div>

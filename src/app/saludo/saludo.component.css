@@ -1,0 +1,33 @@
+.saludo-container {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f9eef2; /* Color de fondo rosa claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  h1 {
+    color: #ff69b4; /* Color de texto rosa oscuro */
+  }
+  
+  p {
+    color: #ff69b4; /* Color de texto rosa oscuro */
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    background-color: #ff69b4; /* Color de fondo rosa oscuro */
+    color: #fff; /* Color de texto blanco */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #d3468d; /* Cambia el color al pasar el mouse */
+  }
